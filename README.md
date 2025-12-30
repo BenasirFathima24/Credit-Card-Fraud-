@@ -1,5 +1,5 @@
-## Credit-Card-Fraud-Detection
-Credit Card Fraud Detection Pipeline
+ Credit-Card-Fraud-Detection
+##Credit Card Fraud Detection Pipeline
 This project implements a machine learning pipeline to identify fraudulent credit card transactions using the  Credit Card Fraud Detection dataset. It addresses the extreme class imbalance (0.17% fraud) using synthetic oversampling.
 🚀 Key Features
 Handling Imbalance: Utilizes SMOTE (Synthetic Minority Over-sampling Technique) to balance training data.
