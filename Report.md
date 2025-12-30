@@ -1,8 +1,9 @@
 Credit Card Fraud Detection Analysis Report
 1. Executive Summary
 The objective of this analysis was to develop a predictive model capable of identifying fraudulent credit card transactions. Given the extreme class imbalance (where fraud represents approximately 0.17% of transactions), the project utilized the SMOTE oversampling technique and compared a linear baseline (Logistic Regression) against a boosting ensemble (XGBoost). The final pipeline prioritizes Recall to minimize the financial risk of undetected fraud.
-2. Methodology 2.1 Data Preprocessing & EDA Duplicate Handling: Removed duplicate entries to prevent model over-optimization on repeated samples.Distribution Analysis: EDA revealed that fraud transactions do not follow the same time distribution as legitimate ones, suggesting "Time" is a relevant feature.Outlier Detection: Boxplots were generated for features \(V11\), \(V2\), \(V17\), \(V4\), and \(Amount\) to identify extreme variances.
-3. 2.2 Handling Class Imbalance
+2. Methodology
+    2.1 Data Preprocessing & EDA Duplicate Handling: Removed duplicate entries to prevent model over-optimization on repeated samples.Distribution Analysis: EDA revealed that fraud transactions do not follow the same time distribution as legitimate ones, suggesting "Time" is a relevant feature.Outlier Detection: Boxplots were generated for features \(V11\), \(V2\), \(V17\), \(V4\), and \(Amount\) to identify extreme variances.
+ 2.2 Handling Class Imbalance
 To prevent the model from defaulting to a "Never Fraud" prediction (which would yield high accuracy but zero utility), the following steps were taken:
 Stratified Splitting: Maintained class ratios in the 80/20 train-test split.
 SMOTE: Applied Synthetic Minority Over-sampling to the training set to create a 50/50 balanced class distribution for the learner.
