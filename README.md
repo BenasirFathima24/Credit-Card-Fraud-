@@ -1,4 +1,4 @@
-# Credit-Card-Fraud-Detection
+## Credit-Card-Fraud-Detection
 Credit Card Fraud Detection Pipeline
 This project implements a machine learning pipeline to identify fraudulent credit card transactions using the  Credit Card Fraud Detection dataset. It addresses the extreme class imbalance (0.17% fraud) using synthetic oversampling.
 🚀 Key Features
@@ -33,6 +33,6 @@ XGBoost Python API Reference
 Scikit-learn Classification Metrics
 👩 ## Author
 Benasir Fathima A
-Cultus intership project-2025
+Cultus Internship Project-2025
 
 
